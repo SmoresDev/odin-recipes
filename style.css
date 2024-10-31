@@ -1,0 +1,45 @@
+body {
+    background-color: #FFEEAD;
+}
+
+.home{
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+h1 {
+    color: #D9534F;
+    
+}
+
+a {
+    color: #f4645f;
+}
+
+ul {
+    color: #618574;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+ol {
+    color: #618574;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h2 {
+    color: #D9534F;
+}
+
+h3 {
+    color: #435c50;
+    font-weight: bold;
+}
+
+p {
+    color: #618574;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
