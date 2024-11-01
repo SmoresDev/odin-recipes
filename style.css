@@ -1,5 +1,9 @@
 body {
-    background-color: #FFEEAD;
+    background-color: #fedc9f;
+    padding: 0 10% 0 10%;
+}
+body.home {
+    background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg");
 }
 
 .home{
@@ -8,38 +12,69 @@ body {
     align-self: center;
 }
 
+img {
+    border-radius: 10%;
+}
+
+.title {
+    background-image: url("https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.jpg?s=612x612&w=0&k=20&c=eaKRSIAoRGHMibSfahMyQS6iFADyVy1pnPdy1O5rZ98=");
+    display: inline-block;
+    height: 408px;
+    width: 612px;
+    border-radius: 10%;
+}
+
+.title h1{
+    font-size: 40px;
+    padding: 25% 25%;
+    text-shadow: 1px 1px 2px red, 0 0 1em #FFEEAD, 0 0 0.2em #FFEEAD;
+}
+
 h1 {
-    color: #D9534F;
-    
+    color: #ffe57f;    
 }
 
 a {
-    color: #f4645f;
+    color: #618574;
+    display: inline;
+    margin: 10px;
 }
 
 ul {
     color: #618574;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    margin-top: 0px;
 }
 
 ol {
     color: #618574;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    margin-top: 0px;
 }
 
 h2 {
     color: #D9534F;
+    margin-bottom: 0px;
 }
 
 h3 {
-    color: #435c50;
+    color: #D9534F;
     font-weight: bold;
+    margin-bottom: 0px;
 }
 
 p {
     color: #618574;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+
+.recipe-title {
+    color: #D9534F;
+}
+
+.home-button {
+    color: #FFAD60;
 }
